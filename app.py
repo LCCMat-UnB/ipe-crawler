@@ -3,14 +3,12 @@ import json
 import pandas as pd
 import os
 
-# --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="ReaxFF Library - LCCMat",
     page_icon="assets/logo_lccmat.png", 
     layout="wide"
 )
 
-# --- LOADING DATA ---
 @st.cache_data
 def load_database():
     file_path = "data/master_index.json"
@@ -30,27 +28,31 @@ pair_style reax/c lmp_control
 pair_coeff * * {filename} {elems_str}
 fix qeq all qeq/reax 1 0.0 10.0 1e-6 param.qeq"""
 
-# --- MAIN APP LOGIC ---
 def main():
-    # ---------------------------------------------------------
-    # 1. CABEÇALHO (LOGO À DIREITA)
-    # ---------------------------------------------------------
+
     c_left, c_logo, c_right = st.columns([4, 1, 4])
     
     with c_logo:
         if os.path.exists("assets/logo_lccmat_h.png"):
             st.image("assets/logo_lccmat_h.png", use_container_width=True)
 
-    # ---------------------------------------------------------
-    # 2. BLOCO CENTRAL (TÍTULO + BUSCA)
-    # ---------------------------------------------------------
     col_left, col_center, col_right = st.columns([1, 2, 1])
 
     with col_center:
+        # ATUALIZAÇÃO AQUI: Texto sobre o grupo e link para produções
         st.markdown(
             """
             <h1 style='text-align: center;'>ReaxFF Potential Library</h1>
             <h5 style='text-align: center; color: gray;'>Interactive database for Reactive Force Fields</h5>
+            
+            <div style='text-align: center; margin-top: 15px; font-size: 0.9em; color: #444;'>
+                <p style='margin-bottom: 5px;'>
+                    Discover the research and publications produced by the LCCMat group:
+                </p>
+                <a href='https://lccmat.unb.br/' target='_blank' style='text-decoration: none; color: #0068c9; font-weight: bold; font-size: 1.1em;'>
+                    Visit Official Website (lccmat.unb.br)
+                </a>
+            </div>
             """, 
             unsafe_allow_html=True
         )
@@ -74,19 +76,13 @@ def main():
         selected_elements = st.multiselect(
             label="Search inputs", 
             options=sorted_elements,
-            default=["C", "H", "O"],
+            #default=["C", "H", "O"],
             placeholder="Select elements...",
             label_visibility="collapsed"
         )
         
-        # --- MUDANÇA AQUI ---
-        # Removido o st.columns([1,2,1]) que forçava o centro.
-        # Agora ele obedece o fluxo natural da col_center (Alinhado à esquerda da coluna)
         strict_mode = st.checkbox("Strict Match (Exact elements only)", value=False)
 
-    # ---------------------------------------------------------
-    # 3. LÓGICA DE FILTRO
-    # ---------------------------------------------------------
     if selected_elements:
         req_set = set(selected_elements)
         def filter_func(row_elements):
@@ -99,9 +95,6 @@ def main():
     else:
         filtered_df = df
 
-    # ---------------------------------------------------------
-    # 4. RESULTADOS
-    # ---------------------------------------------------------
     st.divider()
     
     col_info, col_count = st.columns([8, 1])
@@ -158,15 +151,11 @@ def main():
         with c_msg:
             st.warning("No potentials found matching these criteria.")
 
-    # ---------------------------------------------------------
-    # 5. RODAPÉ INSTITUCIONAL (LCCMat)
-    # ---------------------------------------------------------
     st.write("")
     st.write("")
     st.write("")
     st.divider()
     
-    # Texto oficial traduzido e formatado
     st.markdown(
         """
         <div style="text-align: center; color: #666; font-size: 0.9em;">
