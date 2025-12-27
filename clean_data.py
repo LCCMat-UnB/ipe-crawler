@@ -1,94 +1,126 @@
 import os
 import json
-from pathlib import Path
-from src.parser import ReaxFFParser
+import hashlib
+from src.parsers.factory import ParserFactory
+from src.utils import extract_metadata  # Certifique-se de ter criado o src/utils.py
 
-def main():
-    print("--- Starting Data Cleaning & Indexing ---")
+# --- CONFIGURATION ---
+RAW_DATA_DIR = "data/raw"
+OUTPUT_FILE = "data/master_index.json"
 
-    raw_dir = Path("data/raw")
-    output_file = Path("data/master_index.json")
+def get_file_hash(content: str) -> str:
+    """Generates a unique MD5 hash for the file content."""
+    return hashlib.md5(content.encode('utf-8')).hexdigest()
+
+def extract_repo_info(filepath: str) -> str:
+    """
+    Extracts repository name from folder structure.
+    Expected: data/raw/owner__repo/filename
+    """
+    try:
+        parts = filepath.replace("\\", "/").split("/")
+        if len(parts) >= 3:
+            folder_name = parts[-2]
+            return folder_name.replace("__", "/")
+    except:
+        pass
+    return "Unknown/Local"
+
+def clean_database():
+    print(f"Starting cleaning process in {RAW_DATA_DIR}...")
     
-    unique_potentials = {} # Key: Hash, Value: Metadata
-    stats = {"processed": 0, "valid": 0, "duplicates": 0, "invalid": 0}
+    if not os.path.exists(RAW_DATA_DIR):
+        print(f"❌ Directory {RAW_DATA_DIR} not found.")
+        return
 
-    # 1. Traverse all folders in raw data
-    # We walk through the directory tree
-    for root, dirs, files in os.walk(raw_dir):
+    master_index = []
+    seen_hashes = set()
+    
+    stats = {
+        "total_scanned": 0,
+        "valid": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "skipped_unknown": 0
+    }
+
+    # Walk through all directories
+    for root, dirs, files in os.walk(RAW_DATA_DIR):
         for filename in files:
-            # We only process the potential files, not the sidecar .json files
-            if filename.endswith(".json"):
+            file_path = os.path.join(root, filename)
+            stats["total_scanned"] += 1
+
+            # 1. IDENTIFY PARSER (Using Factory)
+            parser_class = ParserFactory.get_parser(filename)
+            
+            if not parser_class:
+                # If no parser matches the extension, skip it
+                stats["skipped_unknown"] += 1
                 continue
 
-            stats["processed"] += 1
-            file_path = Path(root) / filename
-            
-            # Load sidecar metadata if available
-            sidecar_path = file_path.with_suffix(file_path.suffix + ".json")
-            if not sidecar_path.exists():
-                # Fallback: try appending .json to full name (e.g. file.reax -> file.reax.json)
-                sidecar_path = Path(str(file_path) + ".json")
-            
-            meta_origin = {}
-            if sidecar_path.exists():
-                try:
-                    with open(sidecar_path, 'r', encoding='utf-8') as f:
-                        meta_origin = json.load(f)
-                except:
-                    pass # Ignore sidecar errors
-
-            # 2. Read and Parse content
+            # 2. READ CONTENT
             try:
-                with open(file_path, "r", encoding="utf-8", errors='ignore') as f:
-                    content = f.read()
+                # Try UTF-8 first, fallback to Latin-1 (common in older scientific files)
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                except UnicodeDecodeError:
+                    with open(file_path, 'r', encoding='latin-1') as f:
+                        content = f.read()
+                
+                # 3. DEDUPLICATION (MD5 Hash)
+                file_hash = get_file_hash(content)
+                if file_hash in seen_hashes:
+                    stats["duplicates"] += 1
+                    continue
+                
+                # 4. PARSE PHYSICS (Elements, Validity)
+                result = parser_class.parse(content)
+
+                if result["valid"]:
+                    seen_hashes.add(file_hash)
+                    stats["valid"] += 1
+                    
+                    # 5. EXTRACT METADATA (Citations, Year, Description)
+                    meta_info = extract_metadata(content)
+
+                    # Determine type (Use parser return or class name fallback)
+                    pot_type = result.get("type", parser_class.__name__.replace("Parser", ""))
+
+                    entry = {
+                        "id": file_hash,
+                        "filename": filename,
+                        "type": pot_type,  # e.g., ReaxFF, EAM, Tersoff
+                        "elements": result["atoms"],
+                        "system": "-".join(result["atoms"]),
+                        "local_path": file_path,
+                        "source_repo": extract_repo_info(file_path),
+                        
+                        # New Metadata Fields
+                        "citation": meta_info["citation"],
+                        "description": meta_info["description"],
+                        "year": meta_info["year"]
+                    }
+                    master_index.append(entry)
+                else:
+                    stats["errors"] += 1
+                    print(f"Invalid {pot_type} file: {filename} - {result.get('error')}")
+
             except Exception as e:
-                print(f"[ERROR] Could not read {filename}: {e}")
-                continue
+                print(f"Critical error processing {filename}: {e}")
+                stats["errors"] += 1
 
-            # Generate Hash (Deduplication ID)
-            file_hash = ReaxFFParser.get_content_hash(content)
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(master_index, f, indent=2)
 
-            # Check duplication
-            if file_hash in unique_potentials:
-                stats["duplicates"] += 1
-                # Optional: We could track multiple sources for the same file here
-                continue
-
-            # Parse Physics/Chemistry
-            parse_result = ReaxFFParser.parse(content)
-
-            if parse_result["valid"]:
-                stats["valid"] += 1
-                
-                # Create the clean entry
-                entry = {
-                    "id": file_hash,
-                    "elements": parse_result["atoms"],
-                    "system": "-".join(parse_result["atoms"]), # e.g. "C-H-O"
-                    "original_filename": filename,
-                    "source_repo": meta_origin.get("repo", "unknown"),
-                    "local_path": str(file_path),
-                    "download_url": meta_origin.get("download_url", "")
-                }
-                
-                unique_potentials[file_hash] = entry
-                print(f"[VALID] {entry['system']:<15} | {filename}")
-            else:
-                stats["invalid"] += 1
-                print(f"[INVALID] {filename} - {parse_result['error']}")
-
-    # 3. Save Master Index
     print("\n--- Summary ---")
-    print(f"Total Files Scanned: {stats['processed']}")
-    print(f"Valid ReaxFF:        {stats['valid']}")
+    print(f"Total Files Scanned: {stats['total_scanned']}")
+    print(f"Valid Potentials:    {stats['valid']}")
     print(f"Duplicates Ignored:  {stats['duplicates']}")
-    print(f"Invalid/Trash:       {stats['invalid']}")
-    
-    with open(output_file, "w", encoding="utf-8") as f:
-        # Convert dict to list for easier JSON consumption
-        json.dump(list(unique_potentials.values()), f, indent=4)
-    
-    print(f"\n[SUCCESS] Master index saved to: {output_file}")
+    print(f"Unknown Extensions:  {stats['skipped_unknown']}")
+    print(f"Parsing Errors:      {stats['errors']}")
+    print(f"Database saved to:   {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    main()
+    clean_database()

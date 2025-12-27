@@ -1,86 +1,87 @@
 import requests
+import os
 import time
-from typing import List, Dict, Any
-from src.interfaces import DataSourceInterface
+from src.file_manager import FileManager
 
-class GitHubConnector(DataSourceInterface):
-    def __init__(self, api_token: str = None):
+class GitHubConnector:
+    def __init__(self, token: str = None):
         self.base_url = "https://api.github.com"
-        self.api_token = api_token
-        self.headers = {"Accept": "application/vnd.github.v3+json"}
-        self.authenticate()
-
-    def authenticate(self) -> None:
-        if self.api_token:
-            self.headers["Authorization"] = f"token {self.api_token}"
+        self.headers = {
+            "Accept": "application/vnd.github.v3+json"
+        }
+        if token:
+            self.headers["Authorization"] = f"token {token}"
         else:
-            print("[WARNING] No token provided. Rate limits will be strict.")
+            print("⚠️ GitHubConnector initialized without token. Rate limits will be strict.")
 
-    def search(self, query_term: str, max_pages: int = 1) -> List[Dict[str, Any]]:
+        self.file_manager = FileManager()
+
+    def search_files(self, query: str) -> int:
         """
-        Searches GitHub with pagination support.
-        Args:
-            query_term: The search keyword.
-            max_pages: Limit of pages to fetch (1 page = ~100 items). Set higher for full scraping.
+        Busca paginada com 'Backoff' (espera inteligente) em caso de erro 403.
         """
-        results = []
-        page = 1
-        per_page = 100  # GitHub API maximum per page
+        base_search_url = f"{self.base_url}/search/code"
+        downloaded_count = 0
         
-        print(f"[INFO] Starting search for '{query_term}' (Max pages: {max_pages})...")
-
+        # Reduzi para 5 páginas para garantir diversidade sem estourar a cota rápido
+        max_pages = 5 
+        items_per_page = 30 
+        
+        page = 1
         while page <= max_pages:
-            search_url = f"{self.base_url}/search/code?q=filename:{query_term}&per_page={per_page}&page={page}"
+            print(f"      ... Paginating: Page {page} for '{query}'")
             
-            try:
-                # Sleep to respect rate limits (essential for bulk scraping)
-                if page > 1:
-                    time.sleep(2.0)
+            params = {
+                "q": query,
+                "per_page": items_per_page,
+                "page": page
+            }
 
-                response = requests.get(search_url, headers=self.headers)
+            try:
+                response = requests.get(base_search_url, headers=self.headers, params=params)
                 
+                # SUCESSO (200)
                 if response.status_code == 200:
                     data = response.json()
                     items = data.get("items", [])
                     
                     if not items:
-                        print(f"[INFO] Page {page}: No more items found.")
+                        print("      -> No more items found. Stopping pagination.")
                         break
 
-                    print(f"[INFO] Page {page}: Found {len(items)} items.")
-
                     for item in items:
-                        meta = {
-                            "name": item.get("name"),
-                            "path": item.get("path"),
-                            "repo": item.get("repository", {}).get("full_name"),
-                            "download_url": item.get("html_url").replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/"),
-                            "source": "GitHub"
-                        }
-                        results.append(meta)
-                    
+                        raw_url = item.get("download_url")
+                        file_path = item.get("path")
+                        repo = item.get("repository", {}).get("full_name", "unknown")
+                        
+                        if raw_url:
+                            safe_repo = repo.replace("/", "__").replace(":", "")
+                            filename = os.path.basename(file_path)
+                            save_path = f"data/raw/{safe_repo}/{filename}"
+                            
+                            if self.file_manager.download_file(raw_url, save_path):
+                                downloaded_count += 1
+                                print(f"      [OK] {filename}")
+                            # Se já existe, o file_manager lida silenciosamente ou printa erro
+                        
+                        time.sleep(0.1)
+
                     page += 1
-                    
+                    time.sleep(5) 
+
+                # BLOQUEIO (403)
                 elif response.status_code == 403:
-                    print("[WARNING] Rate limit hit (403). Stopping search early.")
-                    break
+                    print("\n      ⏳ Rate Limit Hit (403). Waiting 60 seconds to cool down...")
+                    time.sleep(60)
+                    print("      🔄 Retrying page...")
+                    continue
+
                 else:
-                    print(f"[ERROR] API Status {response.status_code}: {response.text}")
+                    print(f"\n      ❌ Error {response.status_code}: {response.text}")
                     break
 
             except Exception as e:
-                print(f"[ERROR] Search exception on page {page}: {e}")
+                print(f"\n      ❌ Network Error: {e}")
                 break
-
-        print(f"[INFO] Search complete. Total candidates found: {len(results)}")
-        return results
-
-    def get_file_content(self, download_url: str) -> str:
-        try:
-            time.sleep(0.5) 
-            response = requests.get(download_url)
-            if response.status_code == 200:
-                return response.text
-        except Exception as e:
-            print(f"[ERROR] Download failed: {e}")
-        return ""
+                
+        return downloaded_count

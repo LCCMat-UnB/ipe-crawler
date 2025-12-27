@@ -1,71 +1,99 @@
 import os
+import time
 from dotenv import load_dotenv
-from src.connectors.github_connector import GitHubConnector
-from src.file_manager import FileManager
 
-load_dotenv()
+# Import all connectors
+from src.connectors.github_connector import GitHubConnector
+from src.connectors.lammps_connector import LammpsOfficialConnector
+from src.connectors.nist_connector import NistConnector
 
 # --- CONFIGURATION ---
-# Set to True to download EVERYTHING found. Set to False to limit for testing.
-FULL_SCRAP_MODE = True 
-
-# Limits (Only used if FULL_SCRAP_MODE is False)
-TEST_SEARCH_PAGES = 1      # How many pages of search results to fetch
-TEST_DOWNLOAD_LIMIT = 5    # How many files to actually download
+# Load environment variables (GITHUB_TOKEN) from .env file
+load_dotenv()
 
 def main():
-    print("--- Starting ReaxFF Crawler ---")
-    print(f"[CONFIG] Mode: {'FULL SCRAP' if FULL_SCRAP_MODE else 'TESTING'}")
-    
-    # 1. Init
+    print("--- LCCMat Potential Crawler Initiated ---")
+    start_time = time.time()
+    total_downloaded = 0
+
+    # 1. Setup Token
     token = os.getenv("GITHUB_TOKEN")
-    github_source = GitHubConnector(api_token=token)
-    file_manager = FileManager(base_path="data/raw")
-    
-    # 2. Search
-    query = "ffield.reax"
-    # Logic: If Full Mode, fetch 5 pages (500 items). If Test, fetch 1 page.
-    # Note: GitHub limits code search results to ~1000 items total anyway.
-    pages_to_fetch = 10 if FULL_SCRAP_MODE else TEST_SEARCH_PAGES
-    
-    results = github_source.search(query, max_pages=pages_to_fetch)
-    
-    # 3. Download Pipeline
-    download_count = 0
-    # Logic: If Full Mode, download all results. If Test, stop at limit.
-    limit = len(results) if FULL_SCRAP_MODE else TEST_DOWNLOAD_LIMIT
-    
-    print(f"\n[ACTION] Starting download pipeline (Target: {limit} files)...")
+    if not token:
+        print("⚠️  WARNING: GITHUB_TOKEN not found in .env. Rate limits will be very low.")
 
-    for i, item in enumerate(results):
-        if i >= limit:
-            print("[INFO] Test limit reached. Stopping downloads.")
-            break
-
-        # Check existing (Using dictionary fields)
-        if file_manager.file_exists(item['source'], item['repo'], item['name']):
-            print(f" -> Skipping ({i+1}/{limit}): {item['name']} (Already exists)")
-            continue
-
-        print(f" -> Downloading ({i+1}/{limit}): {item['name']}")
-        content = github_source.get_file_content(item['download_url'])
+    # ==============================================================================
+    # STAGE 1: GLOBAL GITHUB SEARCH (Community & Experimental)
+    # ==============================================================================
+    print("\n📡 STAGE 1: Global GitHub Search (Broad Sweep)")
+    
+    gh_connector = GitHubConnector(token=token)
+    
+    # Extensive list of queries to catch all types
+    search_queries = [
+        # Reactive
+        "filename:ffield.reax",
+        "extension:reax",
+        "extension:comb3",
         
-        if content:
-            # CHANGED: Now passing the full 'item' dictionary as metadata
-            saved_path = file_manager.save_file(
-                content=content,
-                metadata=item
-            )
-            
-            if saved_path:
-                print(f"    [SUCCESS] Saved.")
-                download_count += 1
-            else:
-                print(f"    [FAILURE] Save error.")
-        else:
-            print(f"    [FAILURE] Empty content.")
+        # Metals (EAM/Alloy)
+        "extension:eam",
+        "extension:alloy",
+        
+        # Semiconductors (Si/C)
+        "extension:sw",
+        "extension:tersoff",
+        
+        # Carbon
+        "extension:airebo",
+        "extension:rebo"
+    ]
 
-    print(f"\n--- Process Complete. Downloaded {download_count} new files. ---")
+    print(f"   Targeting {len(search_queries)} file categories...")
+
+    for query in search_queries:
+        print(f"\n   👉 Processing query: '{query}'")
+        try:
+            count = gh_connector.search_files(query)
+            total_downloaded += count
+            time.sleep(1) 
+        except Exception as e:
+            print(f"   ❌ Error processing query '{query}': {e}")
+
+    # ==============================================================================
+    # STAGE 2: LAMMPS OFFICIAL REPOSITORY (Gold Standard)
+    # ==============================================================================
+    print("\n" + "-"*40)
+    print("📡 STAGE 2: LAMMPS Official Repository (Standard Potentials)")
+    
+    try:
+        lammps_connector = LammpsOfficialConnector(token=token)
+        count_lammps = lammps_connector.run()
+        total_downloaded += count_lammps
+    except Exception as e:
+        print(f"   ❌ Error in LAMMPS Connector: {e}")
+
+    # ==============================================================================
+    # STAGE 3: NIST INTERATOMIC POTENTIALS REPOSITORY (Metals Focus)
+    # ==============================================================================
+    print("\n" + "-"*40)
+    print("📡 STAGE 3: NIST IPR (High-Quality Metal Potentials)")
+    
+    try:
+        nist_connector = NistConnector()
+        count_nist = nist_connector.run()
+        total_downloaded += count_nist
+    except Exception as e:
+        print(f"   ❌ Error in NIST Connector: {e}")
+
+    # ==============================================================================
+    # FINAL SUMMARY
+    # ==============================================================================
+    elapsed_time = time.time() - start_time
+    print("\n" + "="*40)
+    print(f"Crawler Finished in {elapsed_time:.2f} seconds.")
+    print(f"Total New Files Downloaded: {total_downloaded}")
+    print("="*40)
+    print("Next Step: Run 'python clean_data.py' to index these new files.")
 
 if __name__ == "__main__":
     main()
