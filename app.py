@@ -4,10 +4,11 @@ import pandas as pd
 import os
 import base64
 import math
+import textwrap
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="IPÊ - LCCMat",
+    page_title="IPE - LCCMat",
     page_icon="assets/logo_lccmat.png", 
     layout="wide"
 )
@@ -112,42 +113,187 @@ st.markdown("""
         border: 1px solid #eeeeee;
         border-radius: 5px;
     }
-    /* Força o fundo do código a ser claro e texto escuro */
     code {
-        color: #d63384 !important; /* Cor padrão do Streamlit light para inline code */
+        color: #d63384 !important; 
     }
 </style>
 """, unsafe_allow_html=True)
+
+
+def render_floating_footer():
+    # st.html não processa Markdown, então os espaços não quebram o layout.
+    st.html("""
+        <style>
+            .floating-footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: #f8f9fa;
+                color: #555;
+                text-align: center;
+                padding: 10px;
+                font-size: 0.85em;
+                border-top: 1px solid #e0e0e0;
+                z-index: 1000;
+                box-shadow: 0px -2px 5px rgba(0,0,0,0.05);
+                font-family: sans-serif;
+            }
+
+            .footer-content {
+                display: flex;
+                justify-content: center;
+                gap: 25px;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .footer-item a {
+                color: #333;
+                text-decoration: none;
+                font-weight: 600;
+                transition: color 0.3s ease;
+                border-bottom: 1px dotted #999;
+            }
+
+            .footer-item a:hover {
+                color: #0068c9;
+                border-bottom: 1px solid #0068c9;
+            }
+
+            .label { font-weight: normal; color: #777; margin-right: 4px; }
+
+            @media screen and (max-width: 600px) {
+                .floating-footer { padding: 8px; font-size: 0.75em; }
+                .footer-content { gap: 8px; flex-direction: column; line-height: 1.4; }
+                .separator { display: none; }
+            }
+            footer {visibility: hidden;}
+        </style>
+
+        <div class="floating-footer">
+            <div class="footer-content">
+                <span class="footer-item">
+                    <span class="label">Developed by</span>
+                    <a href="mailto:israeldaoliveira@gmail.com" target="_blank">Israel Oliveira</a>
+                </span>
+                <span class="separator">|</span>
+                <span class="footer-item">
+                    <span class="label">Coord.</span>
+                    <a href="mailto:ribeirojr@unb.br" target="_blank">Prof. Luiz Ribeiro Jr</a>
+                </span>
+                <span class="separator">|</span>
+                <span class="footer-item">
+                    <span class="label">Group</span>
+                    <a href="mailto:lccmat@unb.br" target="_blank">LCCMat</a>
+                </span>
+            </div>
+        </div>
+    """)
+
+def render_call_to_action():
+    css = textwrap.dedent("""
+        <style>
+        .streamlit-expanderHeader {
+            background-color: #e6f3ff;
+            border: 1px solid #29b5e8;
+            justify-content: center;
+            color: #0c5460;
+            font-weight: 500;
+        }
+        .streamlit-expanderContent {
+            background-color: #f8f9fa;
+            border: 1px solid #29b5e8;
+            border-top: none;
+        }
+
+        .contact-name {
+            font-weight: bold;
+            color: #333;
+            font-size: 0.95em;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .contact-email {
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+            word-wrap: break-word; 
+        }
+
+        @media screen and (max-width: 768px) {
+            .contact-email {
+                margin-bottom: 20px; 
+                
+                padding-bottom: 10px;
+                border-bottom: 1px dashed #ccc;
+            }
+            
+            div[data-testid="column"]:last-child .contact-email {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+        }
+        </style>
+    """)
+    st.markdown(css, unsafe_allow_html=True)
+
+    def contact_name(text):
+        st.markdown(f'<div class="contact-name">{text}</div>', unsafe_allow_html=True)
+
+    def contact_email(text):
+        st.markdown(f'<div class="contact-email">{text}</div>', unsafe_allow_html=True)
+
+    label = "**Call for Contributions:** Published a new potential? Click to index your work!"
+    
+    with st.expander(label):
+        st.write("We welcome contributions from the community. Please contact us via email:")
+        
+        c1, c2, c3 = st.columns(3)
+        
+        with c1:
+            contact_name("📧 Israel Oliveira")
+            contact_email("israeldaoliveira@gmail.com")
+            
+        with c2:
+            contact_name("📧 Prof. Luiz Ribeiro Jr")
+            contact_email("ribeirojr@unb.br")
+            
+        with c3:
+            contact_name("📧 LCCMat Group")
+            contact_email("lccmat@unb.br")
 
 def main():
     # --- HEADER SECTION ---
     st.write("")
     render_centered_image_base64(LOGO_PATH, width_px=300)
 
+    render_floating_footer()
+
+
     _, col_center, _ = st.columns([1, 6, 1])
 
     with col_center:
         st.markdown("<h1 class='header-text'>Interatomic Potentials Explorer</h1>", unsafe_allow_html=True)
         st.markdown("<div class='sub-header'>Interactive database for Computational Materials Science</div>", unsafe_allow_html=True)
-        
+
         st.markdown(
             """
             <div style='text-align: center; margin-bottom: 30px; font-size: 0.9em;'>
-                <p style='margin-bottom: 2px;'>Discover the research and publications produced by the LCCMat group:</p>
-                <a href='https://lccmat.unb.br/' target='_blank' style='text-decoration: none; color: #0068c9; font-weight: bold;'>
-                    Visit LCCMat Official Website (lccmat.unb.br)
-                </a>
+            <p style='margin-bottom: 2px;'>Discover the research and publications produced by the LCCMat group:</p>
+            <a href='https://lccmat.unb.br/' target='_blank' style='text-decoration: none; color: #0068c9; font-weight: bold;'>
+            Visit LCCMat Official Website (lccmat.unb.br)
+            </a>
             </div>
-            """, 
-            unsafe_allow_html=True
-        )
+            """,
 
-        # --- DATA LOADING ---
-        raw_data = load_database()
-        if not raw_data:
-            st.error("Database is empty. Please run the crawler script.")
-            st.stop()
-        df = pd.DataFrame(raw_data)
+            unsafe_allow_html=True
+
+            )
+
+
+        render_call_to_action()
 
         # --- DATA LOADING ---
         raw_data = load_database()
@@ -157,12 +303,11 @@ def main():
         df = pd.DataFrame(raw_data)
 
         # =========================================================
-        # DASHBOARD COMPACTO (VISUAL MAIS LIMPO)
+        # DASHBOARD
         # =========================================================
         with st.container(border=True):
             st.subheader("Database Overview")
 
-            # CSS Ajustado para ser mais compacto ("Mini Cards")
             st.markdown("""
             <style>
                 div[data-testid="stMetric"] {
@@ -309,8 +454,8 @@ def main():
                     
                     # Metadata Line
                     meta_html = f"<span style='color: #666;'>Filename:</span> <code>{row['filename']}</code>"
-                    if year_display:
-                        meta_html += f" &nbsp;|&nbsp; <span style='color: #666;'>Year:</span> <b>{year_display}</b>"
+                    # if year_display:
+                    #     meta_html += f" &nbsp;|&nbsp; <span style='color: #666;'>Year:</span> <b>{year_display}</b>"
                     st.markdown(meta_html, unsafe_allow_html=True)
                     
                     st.markdown(f"<div style='margin-top:5px; font-size:0.9em; color:#444;'>Repository: {row['source_repo']}</div>", unsafe_allow_html=True)
