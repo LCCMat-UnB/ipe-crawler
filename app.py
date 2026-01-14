@@ -9,13 +9,13 @@ import textwrap
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="IPE - LCCMat",
-    page_icon="assets/logo_lccmat.png", 
+    page_icon="assets/logoipe.png", 
     layout="wide"
 )
 
 # --- CONSTANTS ---
 DB_PATH = "data/master_index.json"
-LOGO_PATH = "assets/logo_lccmat_h.png" 
+LOGO_PATH = "assets/logoipe.png" 
 
 # --- HELPER FUNCTIONS ---
 def render_centered_image_base64(image_path, width_px=200):

@@ -75,7 +75,10 @@ def clean_database():
                     continue
                 
                 # 4. PARSE PHYSICS (Elements, Validity)
-                result = parser_class.parse(content)
+                if parser_class.__name__ == "EAMParser":
+                    result = parser_class.parse(content, filename=filename)
+                else:
+                    result = parser_class.parse(content)
 
                 if result["valid"]:
                     seen_hashes.add(file_hash)
