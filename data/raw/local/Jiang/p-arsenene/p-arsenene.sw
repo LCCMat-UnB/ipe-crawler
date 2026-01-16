@@ -1,4 +1,4 @@
-# by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn
+# by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn CITATION: Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147
 
 # (1). SW parameters for puckered arsenene (p-arsenene), used by LAMMPS, derived from VFF model analytically.
 # (2). There are 2 atom types: As1 and As2. See my paper for atom index notations.

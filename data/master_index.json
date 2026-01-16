@@ -8187,7 +8187,7 @@
     "year": 20
   },
   {
-    "id": "cb48a703f17c121702ba6307a56e77a1",
+    "id": "b3f2a5d1f976956e3825830c5856e7f7",
     "filename": "alo.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8196,12 +8196,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/alo/alo.sw",
     "source_repo": "alo",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for AlO       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for AlO       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "c851d183f860dca22dc77226563007a4",
+    "id": "dc4fadadfa003d8893000cc6d8a4a396",
     "filename": "als.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8210,12 +8210,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/als/als.sw",
     "source_repo": "als",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for AlS       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for AlS       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "e4832679786c272eb2d01c484161d5f3",
+    "id": "5120c8d759a9e140e20d7b8671276c69",
     "filename": "alse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8224,12 +8224,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/alse/alse.sw",
     "source_repo": "alse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for AlSe      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for AlSe      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "7a93747ee5b5424e4ba2dd7154413cae",
+    "id": "b240296d5a5d8ee5b0057d5cd39b006f",
     "filename": "alte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8238,12 +8238,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/alte/alte.sw",
     "source_repo": "alte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for AlTe      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for AlTe      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f06e7713dd692b2a012f6908f328f3cc",
+    "id": "27a0890c97600ac62d16422ec563f737",
     "filename": "b-alsb.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8253,12 +8253,12 @@
     "system": "Al-Sb",
     "local_path": "data/raw/local/Jiang/b-alsb/b-alsb.sw",
     "source_repo": "b-alsb",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-AlSb    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-AlSb    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "4033619879884727aab770bdbf78fbc6",
+    "id": "7af4fc0b32b3d8b89aec4a96912e15e8",
     "filename": "b-antimonene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8267,12 +8267,12 @@
     "system": "Sb",
     "local_path": "data/raw/local/Jiang/b-antimonene/b-antimonene.sw",
     "source_repo": "b-antimonene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "61edd490f6747a76888af54db8fb0c10",
+    "id": "bbd30973a4f9d6e2a8f28f94e2d8ee67",
     "filename": "b-arsenene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8281,12 +8281,12 @@
     "system": "As",
     "local_path": "data/raw/local/Jiang/b-arsenene/b-arsenene.sw",
     "source_repo": "b-arsenene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "86f4fe4b2cc30eac3b88c85348fbefde",
+    "id": "b4205fc2ea27d47d81dd6e6e6107c54c",
     "filename": "b-bismuthene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8295,12 +8295,12 @@
     "system": "Bi",
     "local_path": "data/raw/local/Jiang/b-bismuthene/b-bismuthene.sw",
     "source_repo": "b-bismuthene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "b4bfaca49d46b49eaa4a34e6519d20a5",
+    "id": "226985b5f50630ce560520f9f607eac0",
     "filename": "b-co.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8310,12 +8310,12 @@
     "system": "C-O",
     "local_path": "data/raw/local/Jiang/b-co/b-co.sw",
     "source_repo": "b-co",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-CO      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-CO      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "d2a88f3c2c106090cad2ffa172f9f914",
+    "id": "e24a211c7582bad6b23044388dfa7080",
     "filename": "b-cs.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8325,12 +8325,12 @@
     "system": "C-S",
     "local_path": "data/raw/local/Jiang/b-cs/b-cs.sw",
     "source_repo": "b-cs",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-CS      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-CS      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1c016a7db8ab1fe26e2ce7d9dfb28ff6",
+    "id": "2c3fe5e722e79b19b335950534e0e96e",
     "filename": "b-cse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8340,12 +8340,12 @@
     "system": "C-Se",
     "local_path": "data/raw/local/Jiang/b-cse/b-cse.sw",
     "source_repo": "b-cse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-CSe     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-CSe     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1a1c94f6d0933805486324a6af895796",
+    "id": "a55fedb58ae14165c2d8a17f175e7dc5",
     "filename": "b-cte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8355,12 +8355,12 @@
     "system": "C-Te",
     "local_path": "data/raw/local/Jiang/b-cte/b-cte.sw",
     "source_repo": "b-cte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-CTe     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-CTe     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ce9e5c2ecd9dd525111bc5316873e6a7",
+    "id": "80ca9b112d43c99f346801e388766fa0",
     "filename": "b-gaas.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8370,12 +8370,12 @@
     "system": "As-Ga",
     "local_path": "data/raw/local/Jiang/b-gaas/b-gaas.sw",
     "source_repo": "b-gaas",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-GaAs    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-GaAs    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f5120b0991c36dd44b0db8aae45883de",
+    "id": "78328ec9ede978f4b1ad3d823d22496a",
     "filename": "b-gap.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8385,12 +8385,12 @@
     "system": "Ga-P",
     "local_path": "data/raw/local/Jiang/b-gap/b-gap.sw",
     "source_repo": "b-gap",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-GaP     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-GaP     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "33b5d40dab94184900c9642376a692de",
+    "id": "048fc1959499c5d9de6d9996f81ca7bc",
     "filename": "b-geo.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8400,12 +8400,12 @@
     "system": "Ge-O",
     "local_path": "data/raw/local/Jiang/b-geo/b-geo.sw",
     "source_repo": "b-geo",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-GeO     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-GeO     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f7aaf6b4c8e9ab3bfaf823dd4e5ce318",
+    "id": "95afdb353bc37d0632886f18b5fe7b02",
     "filename": "b-ges.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8415,12 +8415,12 @@
     "system": "Ge-S",
     "local_path": "data/raw/local/Jiang/b-ges/b-ges.sw",
     "source_repo": "b-ges",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-GeS     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-GeS     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8199940c5657f737fd5b2cfbfcf01440",
+    "id": "b333189b0f18b2196fb6afc0bf93b952",
     "filename": "b-gese.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8430,12 +8430,12 @@
     "system": "Ge-Se",
     "local_path": "data/raw/local/Jiang/b-gese/b-gese.sw",
     "source_repo": "b-gese",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-GeSe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-GeSe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ba86be23062055159598de35d437c0a8",
+    "id": "00f6e581d5382d5e97a880d0a41e4b6e",
     "filename": "b-gete.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8445,12 +8445,12 @@
     "system": "Ge-Te",
     "local_path": "data/raw/local/Jiang/b-gete/b-gete.sw",
     "source_repo": "b-gete",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-GeTe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-GeTe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "b7e6fbd7dab4a1bb37d8b8789ac564ae",
+    "id": "5ecaf30559fcdeceeca8446758744e8b",
     "filename": "b-inas.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8460,12 +8460,12 @@
     "system": "As-In",
     "local_path": "data/raw/local/Jiang/b-inas/b-inas.sw",
     "source_repo": "b-inas",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-InAs    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-InAs    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "b870705488f926f6e25c4ce4e142b177",
+    "id": "cd844641ade751e91cf11438f36af2d4",
     "filename": "b-inp.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8475,12 +8475,12 @@
     "system": "In-P",
     "local_path": "data/raw/local/Jiang/b-inp/b-inp.sw",
     "source_repo": "b-inp",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-InP     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-InP     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "fab576a8741e3ed828359e917852eace",
+    "id": "f56f103d6820b6d9add59803c8a1382a",
     "filename": "b-insb.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8490,12 +8490,12 @@
     "system": "In-Sb",
     "local_path": "data/raw/local/Jiang/b-insb/b-insb.sw",
     "source_repo": "b-insb",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-InSb    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-InSb    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "c715fddb02bc7acccc15565eae720a44",
+    "id": "861553c09e71fd44ec2ef9783563e474",
     "filename": "b-sige.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8505,12 +8505,12 @@
     "system": "Ge-Si",
     "local_path": "data/raw/local/Jiang/b-sige/b-sige.sw",
     "source_repo": "b-sige",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SiGe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SiGe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ac953db139d33def6f4f45bd85d83363",
+    "id": "1bd6e57b3aa1b0fb3f13257e3a8c8387",
     "filename": "b-sio.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8520,12 +8520,12 @@
     "system": "O-Si",
     "local_path": "data/raw/local/Jiang/b-sio/b-sio.sw",
     "source_repo": "b-sio",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SiO     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SiO     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "34d8acb66dd689cf6fd19962bea6ac30",
+    "id": "254faa044ede379061fabb9d0a60f75d",
     "filename": "b-sis.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8535,12 +8535,12 @@
     "system": "S-Si",
     "local_path": "data/raw/local/Jiang/b-sis/b-sis.sw",
     "source_repo": "b-sis",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SiS     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SiS     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "457545a8aeb943a1cee0d0b21b1b39e3",
+    "id": "cfa1af74adee7043c55aa3e5f493d254",
     "filename": "b-sise.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8550,12 +8550,12 @@
     "system": "Se-Si",
     "local_path": "data/raw/local/Jiang/b-sise/b-sise.sw",
     "source_repo": "b-sise",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SiSe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SiSe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "3b889900743829ec36bbc178b7dbc7f7",
+    "id": "9d4aae30d7b7b81754afa0df4b1b5fea",
     "filename": "b-site.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8565,12 +8565,12 @@
     "system": "Si-Te",
     "local_path": "data/raw/local/Jiang/b-site/b-site.sw",
     "source_repo": "b-site",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SiTe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SiTe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ef68ca37387040ef94598f00080b33dc",
+    "id": "2a724649cbaa5d734a7588535772951b",
     "filename": "b-snge.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8580,12 +8580,12 @@
     "system": "Ge-Sn",
     "local_path": "data/raw/local/Jiang/b-snge/b-snge.sw",
     "source_repo": "b-snge",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SnGe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SnGe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "d41618524e62c0946f69ecfd0b3c10e3",
+    "id": "f3be9b9f698a9fddb4d61f6b926d2ae5",
     "filename": "b-sno.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8595,12 +8595,12 @@
     "system": "O-Sn",
     "local_path": "data/raw/local/Jiang/b-sno/b-sno.sw",
     "source_repo": "b-sno",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SnO     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SnO     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "9215c820c701e901ff33e756a9420137",
+    "id": "04e41593b35207cad1a3185f9f92de82",
     "filename": "b-sns.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8610,12 +8610,12 @@
     "system": "S-Sn",
     "local_path": "data/raw/local/Jiang/b-sns/b-sns.sw",
     "source_repo": "b-sns",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SnS     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SnS     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "6991b76d576f2c7ac1b07216a7983943",
+    "id": "d870759f4d96315a5bfbc588aa28e6f8",
     "filename": "b-snse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8625,12 +8625,12 @@
     "system": "Se-Sn",
     "local_path": "data/raw/local/Jiang/b-snse/b-snse.sw",
     "source_repo": "b-snse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SnSe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SnSe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "4807cca6626eba84dfee266db8dc081e",
+    "id": "a430ce90ff4fd9222bbe542c5eec94e0",
     "filename": "b-snsi.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8640,12 +8640,12 @@
     "system": "Si-Sn",
     "local_path": "data/raw/local/Jiang/b-snsi/b-snsi.sw",
     "source_repo": "b-snsi",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SnSi    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SnSi    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "56872ceecde2c9dda60fa672837a7f5c",
+    "id": "b1a72a1b3363d1e373eeb192651b540a",
     "filename": "b-snte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8655,12 +8655,12 @@
     "system": "Sn-Te",
     "local_path": "data/raw/local/Jiang/b-snte/b-snte.sw",
     "source_repo": "b-snte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for b-SnTe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for b-SnTe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "beae4bd136737c6bf9ed1834fdf79494",
+    "id": "a79d848abd20ed7b79b218221eb67486",
     "filename": "black_phosphorus.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8669,12 +8669,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/black_phosphorus/black_phosphorus.sw",
     "source_repo": "black_phosphorus",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "08176336efb8f1fd755ca2f94a224548",
+    "id": "0b6eb11cbfb3b95dce63ad9273e48258",
     "filename": "blue_phosphorus.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8683,12 +8683,12 @@
     "system": "P",
     "local_path": "data/raw/local/Jiang/blue_phosphorus/blue_phosphorus.sw",
     "source_repo": "blue_phosphorus",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "fb092893a3c430e3eee8caafd49f6c49",
+    "id": "8097824abeffb5355eb046c1d334265e",
     "filename": "bo.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8697,12 +8697,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/bo/bo.sw",
     "source_repo": "bo",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for BO        , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for BO        , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1108027c4feaf212798e6e930f071242",
+    "id": "476b4282d654aaa70e0733ef376f0d4c",
     "filename": "borophene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8711,12 +8711,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/borophene/borophene.sw",
     "source_repo": "borophene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "4b81bc4e3333aa67a764ea9b22048c23",
+    "id": "f353552f73cc73d369e4cdc92d6d5d0f",
     "filename": "bs.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8725,12 +8725,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/bs/bs.sw",
     "source_repo": "bs",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for BS        , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for BS        , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8d02bc75e514963bdae2409dd761ab07",
+    "id": "4e4da99ed6d6e6421b33638e3799c38d",
     "filename": "bse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8739,12 +8739,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/bse/bse.sw",
     "source_repo": "bse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for BSe       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for BSe       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "dea545d9c58206696b62bd65f35a3d07",
+    "id": "ec9391507c650a21d670ef089d2f4bb5",
     "filename": "bte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8753,12 +8753,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/bte/bte.sw",
     "source_repo": "bte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for BTe       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for BTe       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "dd406356983386a4b03d4530e5ba3e0a",
+    "id": "f817a6cf82ae1a1c00b6e6f3a4e7fc6d",
     "filename": "gao.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8767,12 +8767,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/gao/gao.sw",
     "source_repo": "gao",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for GaO       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for GaO       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "d65100a90e3f991138f43fd9585b2e40",
+    "id": "90114cb32e87b68a06ed2c930eb4a81c",
     "filename": "gas.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8781,12 +8781,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/gas/gas.sw",
     "source_repo": "gas",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for GaS       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for GaS       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "608e149318e06c6586ff5cd41b5fd7b6",
+    "id": "a99c1e152767f024c7f17a7fcf26e12b",
     "filename": "gase.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8795,12 +8795,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/gase/gase.sw",
     "source_repo": "gase",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for GaSe      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for GaSe      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "0505d9e0e7c5e51db3d155514b2d98dc",
+    "id": "a58bb7d39be4dd00974453066242a34b",
     "filename": "gate.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8809,12 +8809,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/gate/gate.sw",
     "source_repo": "gate",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for GaTe      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for GaTe      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "e980407e12f1c9b3c40782dc695c7159",
+    "id": "952f37f1c4914783b2598c37ad8a7017",
     "filename": "germanene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8823,12 +8823,12 @@
     "system": "Ge",
     "local_path": "data/raw/local/Jiang/germanene/germanene.sw",
     "source_repo": "germanene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "0d55bb48823c7c353d636539232b4841",
+    "id": "f4d7bc46822068461bec6f033274a230",
     "filename": "h-cote2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8837,12 +8837,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-cote2/h-cote2.sw",
     "source_repo": "h-cote2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-CoTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-CoTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "bd124d76ce32bd487e2fdff9347caa3a",
+    "id": "e3c57c2153edfc461d9aef93127f6302",
     "filename": "h-cro2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8851,12 +8851,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-cro2/h-cro2.sw",
     "source_repo": "h-cro2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-CrO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-CrO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "9def696e4826f0f9392cfb59aa6451cc",
+    "id": "da8ec088aeecb6b70cbe6c72d375a160",
     "filename": "h-crs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8865,12 +8865,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-crs2/h-crs2.sw",
     "source_repo": "h-crs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-CrS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-CrS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ecf4dff85ac83f07d026d769f7f432ad",
+    "id": "7deb5dc0bfb9736aa720f4c15653345a",
     "filename": "h-crse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8879,12 +8879,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-crse2/h-crse2.sw",
     "source_repo": "h-crse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-CrSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-CrSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8c16f632cf5a9ead9531ac8982f98718",
+    "id": "c967b053a1eb037637e9ce81bacb15ea",
     "filename": "h-crte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8893,12 +8893,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-crte2/h-crte2.sw",
     "source_repo": "h-crte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-CrTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-CrTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "6916844c46e0d6cf041f941f8700c0a4",
+    "id": "e99d133447a6b668d7ab8fc59d064717",
     "filename": "h-feo2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8907,12 +8907,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-feo2/h-feo2.sw",
     "source_repo": "h-feo2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-FeO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-FeO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "14c734e0fecf25215b248a26bac0fecc",
+    "id": "9be98892810bf7caec45107ca40a070c",
     "filename": "h-fes2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8921,12 +8921,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-fes2/h-fes2.sw",
     "source_repo": "h-fes2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-FeS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-FeS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "0858c439925acd7c6abf969a3c5e2624",
+    "id": "2cd7cc7a135f7fe2851580a699dae358",
     "filename": "h-fese2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8935,12 +8935,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-fese2/h-fese2.sw",
     "source_repo": "h-fese2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-FeSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-FeSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8b74659dba7c68018c10dfc3d25e7300",
+    "id": "eea3683902d5a1c50b4efda0c486fa87",
     "filename": "h-fete2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8949,12 +8949,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-fete2/h-fete2.sw",
     "source_repo": "h-fete2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-FeTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-FeTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8e7a9d218a7b9510d300a505df6fc0f9",
+    "id": "5972eaa2e9900969ae76e92944abac4b",
     "filename": "h-mno2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8963,12 +8963,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-mno2/h-mno2.sw",
     "source_repo": "h-mno2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-MnO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-MnO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f68d3d52b66714aa30df3c0ecf9420cb",
+    "id": "a9e7ae4295e4013afca200eac5464d25",
     "filename": "h-moo2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8977,12 +8977,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-moo2/h-moo2.sw",
     "source_repo": "h-moo2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-MoO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-MoO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "050ef788c5a118ac43ef9459ba5a0ac9",
+    "id": "88038b0ffc0f42ee01ca7945551fae56",
     "filename": "h-mos2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -8991,12 +8991,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-mos2/h-mos2.sw",
     "source_repo": "h-mos2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "3825c491ceb61953df9c9ecd4c4049fe",
+    "id": "67dd7c0306dcd24b1f6892c8e754e456",
     "filename": "h-mose2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9005,12 +9005,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-mose2/h-mose2.sw",
     "source_repo": "h-mose2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-MoSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-MoSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "5a77569e956fc21d24cfcd1531b50092",
+    "id": "b94c316a5781bad387af17246f3835a3",
     "filename": "h-mote2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9019,12 +9019,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-mote2/h-mote2.sw",
     "source_repo": "h-mote2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-MoTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-MoTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1709a15c7fb50f8d3ac038cb9b3fb339",
+    "id": "7fc052cbce3480f9155bc5049a50247a",
     "filename": "h-nbs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9033,12 +9033,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-nbs2/h-nbs2.sw",
     "source_repo": "h-nbs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-NbS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-NbS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f38eb27eafd6faf10480ba0c2197e0c3",
+    "id": "d15f6a329c7ba557c2b4b50e3733ecc9",
     "filename": "h-nbse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9047,12 +9047,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-nbse2/h-nbse2.sw",
     "source_repo": "h-nbse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-NbSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-NbSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "b40dfccda92bc13f2ad086de0421b17f",
+    "id": "181e9f8007870ded790357e6f881f682",
     "filename": "h-nis2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9061,12 +9061,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-nis2/h-nis2.sw",
     "source_repo": "h-nis2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-NiS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-NiS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "60453c6b92ebb77e18cf9b4a0d5bdbdc",
+    "id": "c1a603e257c62af04a49d42780261a18",
     "filename": "h-nise2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9075,12 +9075,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-nise2/h-nise2.sw",
     "source_repo": "h-nise2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-NiSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-NiSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "76841bd41adee4e00c1c423fd07b0b19",
+    "id": "9ec5ec12bed8a73ec616e3b5aca57f0b",
     "filename": "h-nite2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9089,12 +9089,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-nite2/h-nite2.sw",
     "source_repo": "h-nite2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-NiTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-NiTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8820880a1054f2a390524449b6145cef",
+    "id": "b0f1f271e19a56eaf23a620996089be2",
     "filename": "h-sco2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9103,12 +9103,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-sco2/h-sco2.sw",
     "source_repo": "h-sco2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-ScO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-ScO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "beca27f2339b8b9f5b23d8491ee3b863",
+    "id": "a99cae5f7965c741084932ebd896d319",
     "filename": "h-scs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9117,12 +9117,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-scs2/h-scs2.sw",
     "source_repo": "h-scs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-ScS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-ScS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8e17c34cd317ab4c0c07f7402c5a1c9b",
+    "id": "0c40158b0ce7e06846d1c34993f8bf5e",
     "filename": "h-scse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9131,12 +9131,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-scse2/h-scse2.sw",
     "source_repo": "h-scse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-ScSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-ScSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "18451fb251d6a75d544beaf8af578dbc",
+    "id": "a023babfb685c2ba4947ba6d1078a0e4",
     "filename": "h-scte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9145,12 +9145,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-scte2/h-scte2.sw",
     "source_repo": "h-scte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-ScTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-ScTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "699d79423d67e24fa84e30ccd6725932",
+    "id": "fbb61529ebf3bbc59c8908ed9ab9f190",
     "filename": "h-tas2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9159,12 +9159,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-tas2/h-tas2.sw",
     "source_repo": "h-tas2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-TaS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-TaS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f792f26c56d744108d5a0936152d3550",
+    "id": "c85b8862c15c5d268aa60f0c5896fec0",
     "filename": "h-tase2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9173,12 +9173,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-tase2/h-tase2.sw",
     "source_repo": "h-tase2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-TaSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-TaSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "c274927ddc9f3f476d575d6e8e64b028",
+    "id": "b3f8cedf818c19938d2a67adae486937",
     "filename": "h-tite2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9187,12 +9187,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-tite2/h-tite2.sw",
     "source_repo": "h-tite2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-TiTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-TiTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "afed8584ac50eef3523f7577283e3c11",
+    "id": "ba4369849f892341a4864b3cb87a6ae0",
     "filename": "h-vo2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9201,12 +9201,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-vo2/h-vo2.sw",
     "source_repo": "h-vo2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-VO2    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-VO2    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "de0d40aeed544ff9584a4b7b8b9b287c",
+    "id": "accb50d287bf87f0416312eff124a641",
     "filename": "h-vs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9215,12 +9215,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-vs2/h-vs2.sw",
     "source_repo": "h-vs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-VS2    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-VS2    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "366dae655b3264fc62a36367c6a9a86b",
+    "id": "5660342a7e016ddd081cab446d34a7b2",
     "filename": "h-vse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9229,12 +9229,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-vse2/h-vse2.sw",
     "source_repo": "h-vse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-VSe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-VSe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "353f2c53620b827ca4832596f7d34f3f",
+    "id": "1e70e594c68a65319178fa15ffe2a1bc",
     "filename": "h-vte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9243,12 +9243,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-vte2/h-vte2.sw",
     "source_repo": "h-vte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-VTe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-VTe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "200024c67a52072e689b2bbf8a111a0f",
+    "id": "c553b439024c38598b08c3798f2388f1",
     "filename": "h-wo2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9257,12 +9257,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-wo2/h-wo2.sw",
     "source_repo": "h-wo2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-WO2    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-WO2    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "45d915ef55dc5459553798c5d8f2122c",
+    "id": "ad04711f3194227e755538ef1114574f",
     "filename": "h-ws2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9271,12 +9271,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-ws2/h-ws2.sw",
     "source_repo": "h-ws2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-WS2    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-WS2    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "087a73e8a2c8c6de3ac3a256144781d2",
+    "id": "0eb7303bf83bb9823a92982318562d80",
     "filename": "h-wse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9285,12 +9285,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-wse2/h-wse2.sw",
     "source_repo": "h-wse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-WSe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-WSe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "aaeac0bdeb80098b7f95c9c034cd95d2",
+    "id": "5b3e358fec9434f33449812ab3b838a4",
     "filename": "h-wte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9299,12 +9299,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/h-wte2/h-wte2.sw",
     "source_repo": "h-wte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1H-WTe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1H-WTe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "a9216f91258745a91be712ad2f6e2d8e",
+    "id": "9130c550a7becc38bef10b8817342ebd",
     "filename": "indiene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9313,12 +9313,12 @@
     "system": "In",
     "local_path": "data/raw/local/Jiang/indiene/indiene.sw",
     "source_repo": "indiene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "1569c50b9fc7b6f48ac3de488cafe1b1",
+    "id": "62618c60abf72a0825fdad411b4d5e78",
     "filename": "ino.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9327,12 +9327,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/ino/ino.sw",
     "source_repo": "ino",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for InO       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for InO       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "7c16a0184bac4777a0f139170f3c0b2d",
+    "id": "f52366c26de36347f3ccd13f5476a185",
     "filename": "ins.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9341,12 +9341,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/ins/ins.sw",
     "source_repo": "ins",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for InS       , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for InS       , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "5d00ba8ec4d61b065ce0b0c95c0dfea0",
+    "id": "015272922deee00a8df57c47a220ae93",
     "filename": "inse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9355,12 +9355,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/inse/inse.sw",
     "source_repo": "inse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for InSe      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for InSe      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1b271901438622956d716cfbe792efc4",
+    "id": "4ef0a34710afd39278c6ef0a6240ccf6",
     "filename": "inte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9369,12 +9369,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/inte/inte.sw",
     "source_repo": "inte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for InTe      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for InTe      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "57a1013a828d98620dba303e78cba922",
+    "id": "757aa7794a119413aca3d8e1fc671340",
     "filename": "p-antimonene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9383,12 +9383,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-antimonene/p-antimonene.sw",
     "source_repo": "p-antimonene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn (08/11/16/Tue). these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "455b67af713694478bead95e70c7690b",
+    "id": "0a7a27c2cafbbbaa10a407831194fe4e",
     "filename": "p-arsenene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9397,12 +9397,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-arsenene/p-arsenene.sw",
     "source_repo": "p-arsenene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "b6df326b31d36f5b71dd31ff226fcb75",
+    "id": "541988f7c19d4a9d89914452c00c894b",
     "filename": "p-bismuthene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9411,12 +9411,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-bismuthene/p-bismuthene.sw",
     "source_repo": "p-bismuthene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "2de97d73a26d148c3dfea342a807fbe5",
+    "id": "0cfa2f9f3682557a08114d54fa024909",
     "filename": "p-cs.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9425,12 +9425,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-cs/p-cs.sw",
     "source_repo": "p-cs",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-CS      , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-CS      , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "a9d43a489e8bc3b086f8190a207ebb59",
+    "id": "703cf85540bdbf862f6f9739dbaee70e",
     "filename": "p-cse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9439,12 +9439,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-cse/p-cse.sw",
     "source_repo": "p-cse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-CSe     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-CSe     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "13c55658c17e0dbb2ed2544aa8d367cc",
+    "id": "ceb8d3898d4d19d3fa73949a964dac43",
     "filename": "p-cte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9453,12 +9453,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-cte/p-cte.sw",
     "source_repo": "p-cte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-CTe     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-CTe     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "70b4ec31ba4017721b73b8d1ac9c6b85",
+    "id": "86d0353e69927c05f932b970aeb388e4",
     "filename": "p-geo.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9467,12 +9467,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-geo/p-geo.sw",
     "source_repo": "p-geo",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-GeO     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-GeO     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "08d972fac30fc0aa737bb6928eedc0f2",
+    "id": "da2f5a1e99a011aca07db1c1d9f7365a",
     "filename": "p-ges.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9481,12 +9481,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-ges/p-ges.sw",
     "source_repo": "p-ges",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-GeS     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-GeS     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "46b395f84914aefb12705caed7348923",
+    "id": "3f2827301e0861e8f1f2a20d0c45ae50",
     "filename": "p-gese.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9495,12 +9495,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-gese/p-gese.sw",
     "source_repo": "p-gese",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-GeSe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-GeSe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1e99d8d7c19352f3c46f5e380f1624ec",
+    "id": "565d0a0b6db5cba6c5068668305aeaa1",
     "filename": "p-gete.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9509,12 +9509,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-gete/p-gete.sw",
     "source_repo": "p-gete",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-GeTe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-GeTe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "15677d225df586f92aa6d09824eb8183",
+    "id": "5e30040fb1f687a56c439d39db78c4c7",
     "filename": "p-sio.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9523,12 +9523,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-sio/p-sio.sw",
     "source_repo": "p-sio",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SiO     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SiO     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "2193ab69a8af901eccc48224beb7abd5",
+    "id": "02aafbdb8f1c4777d88d71488ff1e295",
     "filename": "p-sis.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9537,12 +9537,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-sis/p-sis.sw",
     "source_repo": "p-sis",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SiS     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SiS     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "99ac46beeeb98656b47f892077292395",
+    "id": "5d639336a8efc20a6e8c7f0550f7a091",
     "filename": "p-sise.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9551,12 +9551,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-sise/p-sise.sw",
     "source_repo": "p-sise",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SiSe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SiSe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "220c44bd048528d5e1dd7a2c2bf69948",
+    "id": "052bf0b67cb84f1b2fb4c4a0a19a4b6d",
     "filename": "p-site.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9565,12 +9565,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-site/p-site.sw",
     "source_repo": "p-site",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SiTe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SiTe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "5c90ced9694259fa6e1e3569bca81c67",
+    "id": "e8d5595dbcb2e7930c4dbb96ee36378a",
     "filename": "p-sno.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9579,12 +9579,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-sno/p-sno.sw",
     "source_repo": "p-sno",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SnO     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SnO     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ec5672dafb6db15a76cb0bf26acf0faa",
+    "id": "8d8cd52bc0c50dcad617608a607c9706",
     "filename": "p-sns.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9593,12 +9593,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-sns/p-sns.sw",
     "source_repo": "p-sns",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SnS     , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SnS     , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "4fa6dee701283fd15cd677e5a961910f",
+    "id": "9aa2bb8fbae64014b3d528ef2c2d3d23",
     "filename": "p-snse.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9607,12 +9607,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-snse/p-snse.sw",
     "source_repo": "p-snse",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SnSe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SnSe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "4b4e55cc42f965c1c5dea9014d6ed4c7",
+    "id": "4a164aa1d133f978a86ea2fbe650ad0d",
     "filename": "p-snte.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9621,12 +9621,12 @@
     "system": "Si?",
     "local_path": "data/raw/local/Jiang/p-snte/p-snte.sw",
     "source_repo": "p-snte",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for p-SnTe    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for p-SnTe    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "9c78efba0a597adab47409536cb4a354",
+    "id": "e6f38882e7820f85809ee495cef4b4b6",
     "filename": "silicene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9635,12 +9635,12 @@
     "system": "Si",
     "local_path": "data/raw/local/Jiang/silicene/silicene.sw",
     "source_repo": "silicene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "f293696f5da658adf8b5e981900da951",
+    "id": "cbf4a97fc3a51716acd66cdc5d8feb6a",
     "filename": "stanene.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9649,12 +9649,12 @@
     "system": "Sn",
     "local_path": "data/raw/local/Jiang/stanene/stanene.sw",
     "source_repo": "stanene",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "d9c82498f2e3ca22fb1f5c4e39c83f30",
+    "id": "2bdcaa8c1b41b26eec6c40b560f908d6",
     "filename": "t-cote2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9663,12 +9663,12 @@
     "system": "Co",
     "local_path": "data/raw/local/Jiang/t-cote2/t-cote2.sw",
     "source_repo": "t-cote2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-CoTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-CoTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "632cce7bc418b50022e8e6359890c83e",
+    "id": "778a586aa2ecdfa07cece4b5a96eee47",
     "filename": "t-hfs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9677,12 +9677,12 @@
     "system": "Hf",
     "local_path": "data/raw/local/Jiang/t-hfs2/t-hfs2.sw",
     "source_repo": "t-hfs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "cd4b4c32aa2b9a71b981bdff4d4eeda0",
+    "id": "9d63b445364bb61b2c3698dda50c5573",
     "filename": "t-hfse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9691,12 +9691,12 @@
     "system": "Hf",
     "local_path": "data/raw/local/Jiang/t-hfse2/t-hfse2.sw",
     "source_repo": "t-hfse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "92e1f8ab08056c779bf7cc45151c5754",
+    "id": "79bda8cfa34b9452df21929673735180",
     "filename": "t-hfte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9705,12 +9705,12 @@
     "system": "Hf",
     "local_path": "data/raw/local/Jiang/t-hfte2/t-hfte2.sw",
     "source_repo": "t-hfte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-HfTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-HfTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1fe0f7015ad4576ea50914bb7236dca3",
+    "id": "0c56bf0e4ae4482c5af1586cc11b7f69",
     "filename": "t-irte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9719,12 +9719,12 @@
     "system": "Ir",
     "local_path": "data/raw/local/Jiang/t-irte2/t-irte2.sw",
     "source_repo": "t-irte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-IrTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-IrTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "5bcff93017c7a799b82054568d176cac",
+    "id": "a69b38e74979dfefd2eb997098723223",
     "filename": "t-mno2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9733,12 +9733,12 @@
     "system": "Mn",
     "local_path": "data/raw/local/Jiang/t-mno2/t-mno2.sw",
     "source_repo": "t-mno2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MnO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MnO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "22aea06f8908d8de46e9e1fc46456984",
+    "id": "afc50827334cbcee9f6706b0cec03e26",
     "filename": "t-mns2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9747,12 +9747,12 @@
     "system": "Mn",
     "local_path": "data/raw/local/Jiang/t-mns2/t-mns2.sw",
     "source_repo": "t-mns2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MnS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MnS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "4b4497090b22e816db6e3ef65a64457d",
+    "id": "383489390b43ba5b777f14f2fe52c5cc",
     "filename": "t-mnse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9761,12 +9761,12 @@
     "system": "Mn",
     "local_path": "data/raw/local/Jiang/t-mnse2/t-mnse2.sw",
     "source_repo": "t-mnse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MnSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MnSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "bce45f97085df0d48c34b166b8e83d74",
+    "id": "6f316039496af20aee6be435d371511e",
     "filename": "t-mnte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9775,12 +9775,12 @@
     "system": "Mn",
     "local_path": "data/raw/local/Jiang/t-mnte2/t-mnte2.sw",
     "source_repo": "t-mnte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MnTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MnTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "0139c3e6f58c39946cf1ee4ee5cca79c",
+    "id": "0b96a5da8d6db1bd2686bb656d8c0274",
     "filename": "t-mos2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9789,12 +9789,12 @@
     "system": "Mo",
     "local_path": "data/raw/local/Jiang/t-mos2/t-mos2.sw",
     "source_repo": "t-mos2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MoS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MoS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ac8fe7bc10983accda47866c73589240",
+    "id": "f0d899767aaf22f082c890ae714618a7",
     "filename": "t-mose2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9803,12 +9803,12 @@
     "system": "Mo",
     "local_path": "data/raw/local/Jiang/t-mose2/t-mose2.sw",
     "source_repo": "t-mose2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MoSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MoSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "d17ba95ac8929dcd75b53e950027f930",
+    "id": "31d4b301f6dc6aa6d161f24a77e183be",
     "filename": "t-mote2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9817,12 +9817,12 @@
     "system": "Mo",
     "local_path": "data/raw/local/Jiang/t-mote2/t-mote2.sw",
     "source_repo": "t-mote2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-MoTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-MoTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ee525a6d751e0b2e75ea29bf91f4e3b9",
+    "id": "4b2e55b098166fb3bf2400bb0ab750c5",
     "filename": "t-nbs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9831,12 +9831,12 @@
     "system": "Nb",
     "local_path": "data/raw/local/Jiang/t-nbs2/t-nbs2.sw",
     "source_repo": "t-nbs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "5ed1bcf5fd621f63681c9569c9da0bd5",
+    "id": "5b8a67efb4ce3f9419c5a969a7e6c43f",
     "filename": "t-nbse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9845,12 +9845,12 @@
     "system": "Nb",
     "local_path": "data/raw/local/Jiang/t-nbse2/t-nbse2.sw",
     "source_repo": "t-nbse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-NbSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-NbSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "25c0d5de762e3df7ee3d5eca66ea48f7",
+    "id": "82b8da007700b4cdd8c2037afecf5d81",
     "filename": "t-nbte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9859,12 +9859,12 @@
     "system": "Nb",
     "local_path": "data/raw/local/Jiang/t-nbte2/t-nbte2.sw",
     "source_repo": "t-nbte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-NbTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-NbTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "95fdfb5b3bd276a71641571ad7b05d3f",
+    "id": "e67b99e361842cef4b9f2a74dae592d1",
     "filename": "t-nio2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9873,12 +9873,12 @@
     "system": "Ni",
     "local_path": "data/raw/local/Jiang/t-nio2/t-nio2.sw",
     "source_repo": "t-nio2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-NiO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-NiO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "86409fbb0f086518a6db28b48b0b6841",
+    "id": "cc283ae5ac8beb45e9354c8056b43572",
     "filename": "t-nis2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9887,12 +9887,12 @@
     "system": "Ni",
     "local_path": "data/raw/local/Jiang/t-nis2/t-nis2.sw",
     "source_repo": "t-nis2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-NiS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-NiS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "c725adeea3fa178152eb11d0938f5f5a",
+    "id": "efde4f22d83e69f256696edbb35abb84",
     "filename": "t-nise2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9901,12 +9901,12 @@
     "system": "Ni",
     "local_path": "data/raw/local/Jiang/t-nise2/t-nise2.sw",
     "source_repo": "t-nise2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-NiSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-NiSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "49a58b85a86000165c766ca4438df112",
+    "id": "4ba861e25eaa6d26ce1e80400c3a683d",
     "filename": "t-nite2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9915,12 +9915,12 @@
     "system": "Ni",
     "local_path": "data/raw/local/Jiang/t-nite2/t-nite2.sw",
     "source_repo": "t-nite2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-NiTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-NiTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "77fd56aa3a1be3aa073626a87e827ab7",
+    "id": "23f0dee038eb1b6906b6ec25179a2d21",
     "filename": "t-pds2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9929,12 +9929,12 @@
     "system": "Pd",
     "local_path": "data/raw/local/Jiang/t-pds2/t-pds2.sw",
     "source_repo": "t-pds2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-PdS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-PdS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "211fbad303c5d4afd57583970e8f9f18",
+    "id": "06025ecbe9cc1a448723e8831e9a78f6",
     "filename": "t-pdse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9943,12 +9943,12 @@
     "system": "Pd",
     "local_path": "data/raw/local/Jiang/t-pdse2/t-pdse2.sw",
     "source_repo": "t-pdse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-PdSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-PdSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "7000ed73a807d087f5790efa3464a0e2",
+    "id": "27e904eaeada7f59314854a3fb7bea6f",
     "filename": "t-pdte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9957,12 +9957,12 @@
     "system": "Pd",
     "local_path": "data/raw/local/Jiang/t-pdte2/t-pdte2.sw",
     "source_repo": "t-pdte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-PdTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-PdTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "78201a1716e2c014a43646830c8d1df4",
+    "id": "df631324edb27231b5da327cdc132a94",
     "filename": "t-pts2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9971,12 +9971,12 @@
     "system": "Pt",
     "local_path": "data/raw/local/Jiang/t-pts2/t-pts2.sw",
     "source_repo": "t-pts2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-PtS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-PtS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "327362524225b74ed3c2b5e01395f1a3",
+    "id": "70b2298d7f2be23ad473539c9d5c9810",
     "filename": "t-ptse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9985,12 +9985,12 @@
     "system": "Pt",
     "local_path": "data/raw/local/Jiang/t-ptse2/t-ptse2.sw",
     "source_repo": "t-ptse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-PtSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-PtSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "fd30b4ef762fb584e31825da66e5cb80",
+    "id": "19d3f0e99d4f8438e05b394fea51137a",
     "filename": "t-ptte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -9999,12 +9999,12 @@
     "system": "Pt",
     "local_path": "data/raw/local/Jiang/t-ptte2/t-ptte2.sw",
     "source_repo": "t-ptte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-PtTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-PtTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "7fcdfc5f7d81f8c9be73efc7c81f02a5",
+    "id": "ce5f56e9fc7a31d4d793ccb0965e6ac1",
     "filename": "t-res2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10013,12 +10013,12 @@
     "system": "Re",
     "local_path": "data/raw/local/Jiang/t-res2/t-res2.sw",
     "source_repo": "t-res2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ReS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ReS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "10f7728b326bfd9f158030dc791aaebe",
+    "id": "4292912c9caae6a1df4b9ca5ec49f700",
     "filename": "t-rese2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10027,12 +10027,12 @@
     "system": "Re",
     "local_path": "data/raw/local/Jiang/t-rese2/t-rese2.sw",
     "source_repo": "t-rese2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ReSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ReSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "8f572eb57ad4da13bfd322bc1a9d77a7",
+    "id": "1c24b8430745a4a9677a488ceea0555d",
     "filename": "t-rete2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10041,12 +10041,12 @@
     "system": "Re",
     "local_path": "data/raw/local/Jiang/t-rete2/t-rete2.sw",
     "source_repo": "t-rete2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ReTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ReTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "a25dfb9f73e67fe615e58db028e58cb0",
+    "id": "2aef952db4a27a57130584f0dcdf101f",
     "filename": "t-rhte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10055,12 +10055,12 @@
     "system": "Rh",
     "local_path": "data/raw/local/Jiang/t-rhte2/t-rhte2.sw",
     "source_repo": "t-rhte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-RhTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-RhTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "93ea1b5574fefcc2ca8ddfc06273d610",
+    "id": "99947358a5a12704d5a7c2301b28449a",
     "filename": "t-sco2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10069,12 +10069,12 @@
     "system": "Sc",
     "local_path": "data/raw/local/Jiang/t-sco2/t-sco2.sw",
     "source_repo": "t-sco2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ScO2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ScO2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "26cdc15ee715888c061149262ac4efd7",
+    "id": "fc1358cd2ebb5a4bec929628fe5ef94a",
     "filename": "t-scs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10083,12 +10083,12 @@
     "system": "Sc",
     "local_path": "data/raw/local/Jiang/t-scs2/t-scs2.sw",
     "source_repo": "t-scs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ScS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ScS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "37f10b3d9a95f769dc0e3f27aee9b369",
+    "id": "828c1036ce60ea6ce67d53614b2bfc35",
     "filename": "t-scse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10097,12 +10097,12 @@
     "system": "Sc",
     "local_path": "data/raw/local/Jiang/t-scse2/t-scse2.sw",
     "source_repo": "t-scse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ScSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ScSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "48b3c5de60a60eb35de0b7d6d48089c7",
+    "id": "7333808d950ae12726801e0ef9e6122e",
     "filename": "t-scte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10111,12 +10111,12 @@
     "system": "Sc",
     "local_path": "data/raw/local/Jiang/t-scte2/t-scte2.sw",
     "source_repo": "t-scte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ScTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ScTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "cb9d173f537bab8275e280d732172eae",
+    "id": "2b21c98a1be90823319e093cb58affba",
     "filename": "t-sns2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10125,12 +10125,12 @@
     "system": "Sn",
     "local_path": "data/raw/local/Jiang/t-sns2/t-sns2.sw",
     "source_repo": "t-sns2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-SnS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-SnS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "963e0a24e504a4306dc90cb3673ef893",
+    "id": "e9fed7b1a0c80e49470adc5c9334dd80",
     "filename": "t-snse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10139,12 +10139,12 @@
     "system": "Sn",
     "local_path": "data/raw/local/Jiang/t-snse2/t-snse2.sw",
     "source_repo": "t-snse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-SnSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-SnSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "94e73e7b8cd9b50854a601bfa2c19cea",
+    "id": "b55a39256f559c14049f5565f9f98540",
     "filename": "t-tas2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10153,12 +10153,12 @@
     "system": "Ta",
     "local_path": "data/raw/local/Jiang/t-tas2/t-tas2.sw",
     "source_repo": "t-tas2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TaS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TaS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "fb602c3572d72f02c140d035cb6cc4a1",
+    "id": "a05d4bacfb296dc6828f2be8d0a98837",
     "filename": "t-tase2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10167,12 +10167,12 @@
     "system": "Ta",
     "local_path": "data/raw/local/Jiang/t-tase2/t-tase2.sw",
     "source_repo": "t-tase2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TaSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TaSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "cb85bc6b8e7d6c864612ceb753cb2c3d",
+    "id": "04cc300c5276dac300c004a141f5e3ff",
     "filename": "t-tate2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10181,12 +10181,12 @@
     "system": "Ta",
     "local_path": "data/raw/local/Jiang/t-tate2/t-tate2.sw",
     "source_repo": "t-tate2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TaTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TaTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "1331f3cfd15d1c63d1816f98bcb6caa4",
+    "id": "905fe17ac1a51e11c0a18fee02a74f9f",
     "filename": "t-tcs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10195,12 +10195,12 @@
     "system": "Tc",
     "local_path": "data/raw/local/Jiang/t-tcs2/t-tcs2.sw",
     "source_repo": "t-tcs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TcS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TcS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "4c382970935145d99887004954906812",
+    "id": "1e80346c121d9a9554dea6b637dbd9af",
     "filename": "t-tcse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10209,12 +10209,12 @@
     "system": "Tc",
     "local_path": "data/raw/local/Jiang/t-tcse2/t-tcse2.sw",
     "source_repo": "t-tcse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TcSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TcSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "d4c5956d150e160af3bf61338e1ca4dc",
+    "id": "68ee0fa2a02712d0b74fe58fb6551340",
     "filename": "t-tcte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10223,12 +10223,12 @@
     "system": "Tc",
     "local_path": "data/raw/local/Jiang/t-tcte2/t-tcte2.sw",
     "source_repo": "t-tcte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TcTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TcTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "400cbe5d1183bbe29fca05dfce304b4b",
+    "id": "8f59b75b0f6752b336dbf1172eec6e40",
     "filename": "t-tis2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10237,12 +10237,12 @@
     "system": "Ti",
     "local_path": "data/raw/local/Jiang/t-tis2/t-tis2.sw",
     "source_repo": "t-tis2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TiS2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TiS2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "cd6f10bccbd9317e07fd2842ddcf6ca4",
+    "id": "d8cec783dae501fab3ae89d14413271f",
     "filename": "t-tise2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10251,12 +10251,12 @@
     "system": "Ti",
     "local_path": "data/raw/local/Jiang/t-tise2/t-tise2.sw",
     "source_repo": "t-tise2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TiSe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TiSe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "a352c30337eb74111fc1d0174241333b",
+    "id": "7cad8194de3ba42ac474cc49ae2c7047",
     "filename": "t-tite2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10265,12 +10265,12 @@
     "system": "Ti",
     "local_path": "data/raw/local/Jiang/t-tite2/t-tite2.sw",
     "source_repo": "t-tite2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-TiTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-TiTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "caf6a53d45be6732ff95d6f065ef4895",
+    "id": "319cdc5a85e18fea960f8f16afd8149d",
     "filename": "t-vs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10279,12 +10279,12 @@
     "system": "V",
     "local_path": "data/raw/local/Jiang/t-vs2/t-vs2.sw",
     "source_repo": "t-vs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-VS2    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-VS2    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "0a841c4a83eeaa39f8f098a347d2f915",
+    "id": "909cec1df225ea979506a5dc94f90986",
     "filename": "t-vse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10293,12 +10293,12 @@
     "system": "V",
     "local_path": "data/raw/local/Jiang/t-vse2/t-vse2.sw",
     "source_repo": "t-vse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-VSe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-VSe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "ea446a5afccdb53d19e65af6f27fa5ab",
+    "id": "ea7278a5a5b2c3a3aca34ab732faf64d",
     "filename": "t-vte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10307,12 +10307,12 @@
     "system": "V",
     "local_path": "data/raw/local/Jiang/t-vte2/t-vte2.sw",
     "source_repo": "t-vte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-VTe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-VTe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "be9f4eef8cba015d5f82ecc5b6884fbe",
+    "id": "56384826dd6a98652abe6e096b6802ee",
     "filename": "t-ws2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10321,12 +10321,12 @@
     "system": "W",
     "local_path": "data/raw/local/Jiang/t-ws2/t-ws2.sw",
     "source_repo": "t-ws2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-WS2    , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-WS2    , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "f7c88d0f7610fc3e0ed7195aa821c2c6",
+    "id": "38be3c1e02f0ec3e85921ca5b7925135",
     "filename": "t-wse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10335,12 +10335,12 @@
     "system": "W",
     "local_path": "data/raw/local/Jiang/t-wse2/t-wse2.sw",
     "source_repo": "t-wse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-WSe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-WSe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "d659c9b196b84b120c2b0a22e8404294",
+    "id": "f9a2aac3826a8cbec99ffac717012e3f",
     "filename": "t-wte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10349,12 +10349,12 @@
     "system": "W",
     "local_path": "data/raw/local/Jiang/t-wte2/t-wte2.sw",
     "source_repo": "t-wte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-WTe2   , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-WTe2   , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
-    "id": "9b5d47b6283c3350c1841e19c121aa6e",
+    "id": "efc5d65401f7717294f33c69f07cd882",
     "filename": "t-zrs2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10363,12 +10363,12 @@
     "system": "Zr",
     "local_path": "data/raw/local/Jiang/t-zrs2/t-zrs2.sw",
     "source_repo": "t-zrs2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "590a0051fb884591c87ec76563046f2d",
+    "id": "cc46da177d16acc868ab86915a1dff6f",
     "filename": "t-zrse2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10377,12 +10377,12 @@
     "system": "Zr",
     "local_path": "data/raw/local/Jiang/t-zrse2/t-zrse2.sw",
     "source_repo": "t-zrse2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. these entries are in LAMMPS \"metal\" units:",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "these entries are in LAMMPS \"metal\" units:. epsilon = eV; sigma = Angstroms",
+    "year": 20
   },
   {
-    "id": "7282d41a50b5e3034359e6897006908c",
+    "id": "8a9c015fd465d303da48f0c67903d4c0",
     "filename": "t-zrte2.sw",
     "type": "Stillinger-Weber",
     "elements": [
@@ -10391,9 +10391,9 @@
     "system": "Zr",
     "local_path": "data/raw/local/Jiang/t-zrte2/t-zrte2.sw",
     "source_repo": "t-zrte2",
-    "citation": "Unknown",
-    "description": "by Jin-Wu Jiang, jwjiang5918@hotmail.com; jiangjinwu@shu.edu.cn. SW parameters for 1T-ZrTe2  , used by LAMMPS",
-    "year": null
+    "citation": "Jiang, J. W., & Zhou, Y. P. (2017). Parameterization of Stillinger-Weber potential for two-dimensional atomic crystals. arXiv preprint arXiv:1704.03147",
+    "description": "SW parameters for 1T-ZrTe2  , used by LAMMPS. these entries are in LAMMPS \"metal\" units:",
+    "year": 20
   },
   {
     "id": "fd1771248cd1ebfb86b46a523e4e0cdf",
