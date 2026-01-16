@@ -248,4 +248,3 @@ Reactive MD-force field: Fe/C/O/H Zou et al. JOM 2012, doi:10.1007/s11837-012-04
   2  1  4  4   0.0000   0.0000   0.0000  -5.0000   0.0000   0.0000   0.0000
   1    ! Nr of hydrogen bonds;at1;at2;at3;Rhb;Dehb;vhb1
   3  2  3   2.1200  -3.5800   1.4500  19.5000
-  

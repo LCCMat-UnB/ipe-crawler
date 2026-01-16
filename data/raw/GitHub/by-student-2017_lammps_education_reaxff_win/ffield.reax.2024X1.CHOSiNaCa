@@ -199,4 +199,3 @@ Ca/O/C ReaxFF Forcefield
  0 2 4 0 0.0000 0.0000 0.1200 -2.4847 0.0000 0.0000 0.0000
  1 ! Nr of hydrogen bonds;at1;at2;at3;Rhb;Dehb;vhb1 
  3 2 3 2.1200 -3.5800 1.4500 19.5000
- 

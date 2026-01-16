@@ -42,7 +42,6 @@
 ' Print.Energy.components..........'  'false'   300.0
 ' Print.electroneg...components....'  'false'   300.0
 # =========================== END's parameters =========================
-
 #Possible  QInit modes    
 #  true (then initialize all the oxygen charges to QOxInit and set the cation charge in order to keep the charge balance (neutrality of the box)
 #any other name would lead to either 0 charges or charge read from the lammps atomic position file      		

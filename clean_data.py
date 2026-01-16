@@ -2,7 +2,7 @@ import os
 import json
 import hashlib
 from src.parsers.factory import ParserFactory
-from src.utils import extract_metadata  # Certifique-se de ter criado o src/utils.py
+from src.utils import extract_metadata
 
 # --- CONFIGURATION ---
 RAW_DATA_DIR = "data/raw"
@@ -41,7 +41,8 @@ def clean_database():
         "valid": 0,
         "duplicates": 0,
         "errors": 0,
-        "skipped_unknown": 0
+        "skipped_unknown": 0,
+        "reax_cleaned": 0  # Added for tracking
     }
 
     # Walk through all directories
@@ -54,21 +55,40 @@ def clean_database():
             parser_class = ParserFactory.get_parser(filename)
             
             if not parser_class:
-                # If no parser matches the extension, skip it
                 stats["skipped_unknown"] += 1
                 continue
 
             # 2. READ CONTENT
             try:
-                # Try UTF-8 first, fallback to Latin-1 (common in older scientific files)
+                # Try UTF-8 first, fallback to Latin-1
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
                 except UnicodeDecodeError:
                     with open(file_path, 'r', encoding='latin-1') as f:
                         content = f.read()
+
+                # --- NEW: REAXFF CLEANING LOGIC ---
+                # Check if the identified parser is for ReaxFF (adjust string if your class is named differently)
+                if "eax" in parser_class.__name__:
+                    original_content = content
+                    lines = content.splitlines()
+
+                    # Filter out empty lines, but KEEP original indentation (no strip on the line itself)
+                    # We only use strip() inside the condition to check if it's empty.
+                    cleaned_lines = [line for line in lines if line.strip()]
+                    content = "\n".join(cleaned_lines)
+
+                    # If content changed, we might want to update the file on disk so the local path matches the hash
+                    if content != original_content:
+                        # Optional: Overwrite the file to make it permanently clean
+                        with open(file_path, 'w', encoding='utf-8') as f:
+                            f.write(content)
+                        stats["reax_cleaned"] += 1
+                # ----------------------------------
                 
                 # 3. DEDUPLICATION (MD5 Hash)
+                # Now the hash is generated from the CLEAN content
                 file_hash = get_file_hash(content)
                 if file_hash in seen_hashes:
                     stats["duplicates"] += 1
@@ -84,22 +104,19 @@ def clean_database():
                     seen_hashes.add(file_hash)
                     stats["valid"] += 1
                     
-                    # 5. EXTRACT METADATA (Citations, Year, Description)
+                    # 5. EXTRACT METADATA
                     meta_info = extract_metadata(content)
 
-                    # Determine type (Use parser return or class name fallback)
                     pot_type = result.get("type", parser_class.__name__.replace("Parser", ""))
 
                     entry = {
                         "id": file_hash,
                         "filename": filename,
-                        "type": pot_type,  # e.g., ReaxFF, EAM, Tersoff
+                        "type": pot_type,
                         "elements": result["atoms"],
                         "system": "-".join(result["atoms"]),
                         "local_path": file_path,
                         "source_repo": extract_repo_info(file_path),
-                        
-                        # New Metadata Fields
                         "citation": meta_info["citation"],
                         "description": meta_info["description"],
                         "year": meta_info["year"]
@@ -121,7 +138,7 @@ def clean_database():
     print(f"Total Files Scanned: {stats['total_scanned']}")
     print(f"Valid Potentials:    {stats['valid']}")
     print(f"Duplicates Ignored:  {stats['duplicates']}")
-    print(f"Unknown Extensions:  {stats['skipped_unknown']}")
+    print(f"ReaxFF Files Cleaned:{stats['reax_cleaned']}")
     print(f"Parsing Errors:      {stats['errors']}")
     print(f"Database saved to:   {OUTPUT_FILE}")
 
