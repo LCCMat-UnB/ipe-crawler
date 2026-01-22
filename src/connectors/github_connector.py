@@ -18,13 +18,13 @@ class GitHubConnector:
 
     def search_files(self, query: str) -> int:
         """
-        Busca paginada com 'Backoff' (espera inteligente) em caso de erro 403.
+        Paginated search with smart backoff handling for 403 errors.
         """
         base_search_url = f"{self.base_url}/search/code"
         downloaded_count = 0
         
-        # Reduzi para 5 páginas para garantir diversidade sem estourar a cota rápido
-        max_pages = 5 
+        # Max limits
+        max_pages = 9 
         items_per_page = 30 
         
         page = 1
@@ -40,7 +40,6 @@ class GitHubConnector:
             try:
                 response = requests.get(base_search_url, headers=self.headers, params=params)
                 
-                # SUCESSO (200)
                 if response.status_code == 200:
                     data = response.json()
                     items = data.get("items", [])
@@ -62,14 +61,12 @@ class GitHubConnector:
                             if self.file_manager.download_file(raw_url, save_path):
                                 downloaded_count += 1
                                 print(f"      [OK] {filename}")
-                            # Se já existe, o file_manager lida silenciosamente ou printa erro
                         
                         time.sleep(0.1)
 
                     page += 1
-                    time.sleep(5) 
+                    time.sleep(2) 
 
-                # BLOQUEIO (403)
                 elif response.status_code == 403:
                     print("\n      ⏳ Rate Limit Hit (403). Waiting 60 seconds to cool down...")
                     time.sleep(60)

@@ -2,9 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
 .env
+.venv/
+venv/
 .DS_Store
+test_gitlab.py
 
 # IDEs
 .vscode/

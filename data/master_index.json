@@ -1,5 +1,19 @@
 [
   {
+    "id": "053ead85dd547bdb666b0cf2151563f5",
+    "filename": "in.sw",
+    "type": "Stillinger-Weber",
+    "elements": [
+      "Si"
+    ],
+    "system": "Si",
+    "local_path": "data/raw/1713175349__flare/in.sw",
+    "source_repo": "1713175349/flare",
+    "citation": "Unknown",
+    "description": "region\t\tbox block 0 $L 0 $L 0 $L. pair_coeff\t* * Si.sw Si",
+    "year": 20
+  },
+  {
     "id": "a11b3c4f4d91c25583737d73e4722334",
     "filename": "ffield.reax",
     "type": "ReaxFF",
