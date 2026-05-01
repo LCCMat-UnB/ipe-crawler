@@ -1,0 +1,20 @@
+# Bismuthene Tersoff Potential (ML-Tersoff_Bi)
+#
+# If you use this potential, please cite:
+# Partha Sarathi Dutta†, Aditya Koneru†, et al.
+# "Machine Learning an Ab-Initio Based Bond-Order Potential for Bismuthene"
+# J. Phys. Chem. C (2026)
+# DOI: https://doi.org/10.1021/acs.jpcc.5c08318
+# † Equal contribution
+#
+# LAMMPS usage:
+# pair_style tersoff
+# pair_coeff * * ML-Tersoff_Bi.tersoff Bi
+
+# Units: LAMMPS 'metal'
+#
+# Format:
+# i  j  k  m  gamma  lambda3  c  d  cos(theta0)  n  beta
+#              lambda2  B  R  D  lambda1  A
+
+Bi  Bi  Bi  1.00000  0.479200  2.05080  155365  285.566  -0.104900  2.13630  1.38600  0.645800  21.0780  3.61950  1.29210  2.60930  1521.07

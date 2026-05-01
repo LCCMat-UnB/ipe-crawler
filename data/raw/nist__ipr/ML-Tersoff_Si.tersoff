@@ -1,0 +1,20 @@
+# Silicene Tersoff Potential (ML-Tersoff_Si)
+#
+# If you use this potential, please cite:
+# Aditya Koneru†, Partha Sarathi Dutta†, et al.
+# "Development and assessment of hierarchical multi-reward reinforcement learning based potential for silicene with state-of-the-art models"
+# Materials Today Advances (2025)
+# DOI: https://doi.org/10.1016/j.mtadv.2025.100583
+# † Equal contribution
+#
+# LAMMPS usage (requires 'metal' units):
+# pair_style tersoff
+# pair_coeff * * ML-Tersoff_Si.tersoff Si
+#
+# Units: LAMMPS 'metal'
+#
+# Format:
+# i  j  k  m  gamma  lambda3  c  d  cos(theta0)  n  beta
+#              lambda2  B  R  D  lambda1  A
+
+Si  Si  Si  1.000000  1.009312  1.381902  120008.5  257.2302  -0.216959  1.398685  0.443621  1.013955  54.20208  3.354009  0.622883  3.039371  1663.927
